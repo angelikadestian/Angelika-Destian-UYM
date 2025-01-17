@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modern Portfolio of [Your Name]. Showcase of projects, skills, and contact information.">
+    <title>Portfolio - ANGELIKA DESTIAN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #0d00ff;
+            color: white;
+            padding: 30px 15%;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        nav {
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 10px 15%;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: #002aff;
+        }
+        section {
+            padding: 50px 15%;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #1900ff;
+        }
+        .about-me {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .about-me img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .project {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .project img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .project:hover {
+            transform: scale(1.05);
+        }
+        .project p {
+            padding: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            background: #000dff;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ANGELIKA DESTIAN</h1>
+        <p>Portfolio</p>
+        <p>Saya Mahasiswa Universitas Yatsi Madani | Prodi S1 Ilmu Komputer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#photo blog">Photo Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="About Me">
+        <div class="section-title">About Me</div>
+        <div class="about-me">
+            <img src="yourphoto.jpg.jpeg" alt="Your Photo">
+            <p>Hello, I'm ANGELIKA DESTIAN yang sedang menempuh pendidikan S1 di Universitas Yatsi Madani dengan program studi S1 Ilmu Komputer dengan latar belakang pendidikan di SMK Pujangga Jurusan Otomatisasi Tata Kelola Perkantoran (OTKP). Saya juga menguasai microsoft office, dan selalu terbuka untuk tantangan baru yang dapat menambah kemampuan saya. Di waktu sengang saya juga suka memasak yang membantu saya tetap produktif dan bersemangat.</p>
+            <p>"Saya percaya setiap kesempatan adalah langkah menuju pencapaian yang lebih besar."</p>
+        </div>
+    </section>
+
+    <section id="photo blog">
+        <div class="section-title">My Photo Blog</div>
+        <div class="photo blog">
+            <div class="photo blog">
+                <img src="photo blog1.jpg.jpeg" alt="Photo blog 1">
+                <p>PKKMB 2024 yang di laksankan untuk mahasiswa baru dan semseter 3.</p>
+            </div>
+            <div class="photo blog">
+                <img src="photo blog2.jpg.jpeg" alt="Photo blog 2">
+                <p>Kota Tua : Pembuatan film pendek untuk mata kuliah Multi Media bersama dengan teman satu kelompok.</p>
+            </div>
+            <div class="photo blog">
+                <img src="photo blog3.jpg.jpeg" alt="Photo blog 3">
+                <p>Crimping : Praktek membuat kabel crimping dan mentransfer data dari laptop satu ke laptop satunya dengan mata kuliah Komunikasi Data.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-title">Contact</div>
+        <p>Email: <a href="mailto:yourname@example.com">admin@uym.ac.id</a></p>
+        <p>Phone: 081285286889</p>
+        <p>Address: Jl.Aria Santika No.40A,RT.005/RW.011,Margasari,Kec.Karawaci,Kota Tangerang,Banten 15114.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 <a href="#">Angelika Destian</a>. Semua hak cipta dilindungi.</p>
+    </footer>
+
+</body>
+</html>
